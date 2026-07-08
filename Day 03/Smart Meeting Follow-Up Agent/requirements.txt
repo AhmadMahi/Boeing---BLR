@@ -1,0 +1,13 @@
+# Always required
+flask
+python-dotenv
+langchain-core
+
+# Required ONLY if LLM_PROVIDER=openai in your .env file
+langchain-openai
+
+# Required ONLY if LLM_PROVIDER=boeing in your .env file
+# (internal packages - install from your organization's package index,
+#  then uncomment the two lines below)
+# boeing-chat-model
+# boeing-embeddings
